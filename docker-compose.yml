@@ -4,8 +4,11 @@ services:
 
       volumes:
         - .:/app
+        - /app/node_modules
 
       ports:
         - "3000:3000"
 
-      command: tail -f /dev/null
+      command: npm run dev
+
+      restart: always

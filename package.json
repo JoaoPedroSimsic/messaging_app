@@ -7,7 +7,7 @@
 		"start": "node dist/index.js",
     "build": "tsc",
     "watch": "tsc -w", 
-    "dev": "npm run build && nodemon dist/index.js" 
+    "dev": "nodemon src/index.ts" 
 	},
 	"repository": {
 		"type": "git",
