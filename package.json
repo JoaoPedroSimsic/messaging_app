@@ -5,9 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node dist/index.js",
-    "build": "tsc",
-    "watch": "tsc -w", 
-    "dev": "nodemon src/index.ts" 
+		"build": "tsc",
+		"watch": "tsc -w",
+		"dev": "nodemon src/index.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -28,6 +28,7 @@
 		"ts-node": "^10.9.2"
 	},
 	"devDependencies": {
+		"@types/express": "^5.0.5",
 		"@types/node": "^24.9.2",
 		"eslint": "^9.38.0",
 		"nodemon": "^3.1.10",
