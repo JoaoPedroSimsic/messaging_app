@@ -9,6 +9,6 @@ services:
       ports:
         - "3000:3000"
 
-      command: npm run dev
+      command: sh -c "npm run watch & npm run dev"
 
       restart: always
